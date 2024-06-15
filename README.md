@@ -60,27 +60,42 @@ it be ascnding descending or even based on complex rules */
       		int n = 6;
       		fiboCache = new int [n+1];
       		System.out.print("Fibo " + n + " term : " + fibo(n));
+  
       		System.out.println();
+  
       		System.out.println(leapYear(1996));
       		
       		rockPaperScissorsGame();
       		
       		System.out.println();
       		reverseString("Hello");
+  
       		palindrome();
+  
       		characterCount("Saravannan");
+  
       		anagram();
+  
       		vovelsConsonants();
+  
       		matchingElements();
+  
       		reverseArray();
+  
       		System.out.println();
+  
       		reverseLinkedList();
+  
       		secondLargestElement();
+  
       		removeCharacteroccurence();
+  
       		System.out.println(isPrime(13));
       		System.out.println(isPrime(8));
+  
       		sumOfElements();
       	}
+  
       	/* Bubble sort  (john) 
       	- simple sorting algo that repeatedly steps through array,elemtn by element comparing
       	current element with one after swapping value if former larger than the latter   */
