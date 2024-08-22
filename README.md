@@ -5,6 +5,8 @@ Could be doing 75 or 150 qns . Havent decided yet
 
 ![image](https://github.com/user-attachments/assets/0b9a1eb8-3e27-450c-9dae-530999ceb1ca)
 
+![image](https://github.com/user-attachments/assets/9053ae4f-db3b-466c-a181-3a8d490c446b)
+
 
 
 Algos 
