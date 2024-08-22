@@ -3,6 +3,9 @@ Could be doing 75 or 150 qns . Havent decided yet
 
 ![image](https://github.com/user-attachments/assets/25146ad2-3007-4ad8-ade7-b2966eed622f)
 
+![image](https://github.com/user-attachments/assets/fc2af5cb-19f9-472c-94a4-75b6a06c04c7)
+
+
 Algos 
 ============
 
