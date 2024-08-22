@@ -1,7 +1,7 @@
 # Data Structure and Algorithms 
 Could be doing 75 or 150 qns . Havent decided yet 
 
-![image](https://github.com/SaravannanP/DataStructAndAlgo/assets/67651440/414da82d-4730-4a2a-b65c-987a9198d722)
+![image](https://github.com/user-attachments/assets/25146ad2-3007-4ad8-ade7-b2966eed622f)
 
 Algos 
 ============
