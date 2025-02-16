@@ -11,7 +11,10 @@ Could be doing 75 or 150 qns . Havent decided yet
 
 Algos 
 ============
+TWO SUM
 
+
+=====================================================
 Sorting Algo (shuffled deck of cards to put in order) 
 -------------------
 - method or process used to rearrange elemetns in a list of an array in a certain order weather 
