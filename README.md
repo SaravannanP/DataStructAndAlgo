@@ -50,7 +50,7 @@ Optimised Solution:
     {
         public static boolean hasDuplicate(int[] nums)
         {
-            Set<Integer> dup = new Set<>();
+            Set<Integer> dup = new HashSet<>();
             for(int num : nums)
             {
               if(dup.contains(num))
