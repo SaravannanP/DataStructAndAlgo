@@ -36,7 +36,7 @@ Brute Force:
              {
                 if(nums[i] == nums[j])
               	{
-                   return true;
+                    return true;
               	}
              }
           }
