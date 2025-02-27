@@ -25,8 +25,6 @@ otherwise return false.
 
 Brute Force:
 
-    public class Solution
-    {
         public static boolean hasDuplicate(int[] nums)
         {
           // Assume nums Array is unsorted
@@ -42,12 +40,10 @@ Brute Force:
           }
           return false;
         }        
-    }
+    
              
 Optimised Solution: 
 
-    public class Solution 
-    {
         public static boolean hasDuplicate(int[] nums)
         {
             Set<Integer> dup = new HashSet<>();
@@ -61,7 +57,7 @@ Optimised Solution:
             }
             return false;
         }
-    }
+    
 
 ### Valid Anagram
 Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
