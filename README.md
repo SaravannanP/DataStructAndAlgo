@@ -9,7 +9,9 @@ Could be doing 75 or 150 qns . Havent decided yet
 3.  Time and Space Complexity
 
 ## Arrays & Hashing
-### Contains Duplicate 
+### Contains Duplicate
+Given an integer array nums, return true if any value appears more than once in the array,
+otherwise return false.
 
     public static void main(String[] args)
 	{
