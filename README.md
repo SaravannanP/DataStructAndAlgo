@@ -42,7 +42,7 @@ Brute Force:
             }
               return false;
           }        
-      }
+    }
              
 Optimised Solution: 
 
