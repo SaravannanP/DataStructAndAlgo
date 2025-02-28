@@ -123,9 +123,48 @@ Example 3:
 
 Constraints: 
 
-2 <= nums.length <= 1000
--10,000,000 <= nums[i] <= 10,000,000
--10,000,000 <= target <= 10,000,000
+	2 <= nums.length <= 1000
+	-10,000,000 <= nums[i] <= 10,000,000
+	-10,000,000 <= target <= 10,000,000
+
+Main Method:
+
+Brute Force(Sorting):
+
+	public int[] twoSum(int[] nums, int target) 
+    {
+    	for(int i = 0 ; i < nums.length;i++)
+      {
+        for(int j = i + 1; j < nums.length;j++)
+        {
+            if(nums[i]+nums[j] == target)
+            {
+                return new int []{i,j};
+            }
+        }
+      }
+      return new int[0];  
+    }
+
+Optimised Solution:
+
+	public int[] twoSum(int[] nums, int target) 
+    {
+		HashMap<Integer,Integer> Map = new HashMap<>();
+	        for(int i =0 ; i < nums.length;i++)
+	        {
+	            int num = nums[i];
+	            int diff = target - nums[i];
+	
+	            if(Map.containsKey(diff))
+	            {
+	                return new int [] {Map.get(diff),i};
+	            }
+	            Map.put(num,i); 
+	        } 
+	
+	        return new int[] {}; 
+	}
 
 
 ### Group Anagrams
