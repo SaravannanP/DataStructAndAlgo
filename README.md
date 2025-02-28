@@ -131,15 +131,16 @@ Main Method:
 
 	public static void main(String[] args)
 	{
-	int [] nums = {3,4,5,6};
-	int target = 7;
-	int [] nums2 = {4,5,6};
- 	int target 2 = 10;
-  	int [] nums2 = {5,5};
- 	int target 2 = 10;
+		int [] nums = {3,4,5,6};
+		int target = 7;
+		int [] nums2 = {4,5,6};
+	 	int target2 = 10;
+	  	int [] nums3 = {5,5};
+	 	int target3 = 10;
 	
-	System.out.println(hasDuplicate(nums));
-	System.out.println(hasDuplicate(nums2));
+		System.out.println(twoSum(nums,target));
+		System.out.println(twoSum(nums2,target2));
+	 	System.out.println(twoSum(nums3,target3));
 	}
 
 Brute Force(Sorting):
