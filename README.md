@@ -129,6 +129,19 @@ Constraints:
 
 Main Method:
 
+	public static void main(String[] args)
+	{
+	int [] nums = {3,4,5,6};
+	int target = 7;
+	int [] nums2 = {4,5,6};
+ 	int target 2 = 10;
+  	int [] nums2 = {5,5};
+ 	int target 2 = 10;
+	
+	System.out.println(hasDuplicate(nums));
+	System.out.println(hasDuplicate(nums2));
+	}
+
 Brute Force(Sorting):
 
 	public int[] twoSum(int[] nums, int target) 
